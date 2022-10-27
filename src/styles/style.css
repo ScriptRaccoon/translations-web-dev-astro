@@ -1,0 +1,80 @@
+/* global styles */
+
+:root {
+	--primary-color: hsl(191, 43%, 41%);
+	--secondary-color: hsl(191, 20%, 80%);
+	--light-gray: #ddd;
+	--gray: #666;
+	--font-color: #111;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	color: var(--font-color);
+}
+
+/* links */
+
+a {
+	color: inherit;
+	text-underline-offset: 3px;
+}
+
+/* header and footer */
+
+header,
+footer {
+	background-color: var(--primary-color);
+	color: white;
+	text-align: center;
+	line-height: 1.2;
+	box-shadow: 0px 0px 5px var(--primary-color);
+	padding-block: 25px;
+}
+
+/* heading */
+
+h1 {
+	margin: 0px;
+	font-weight: 500;
+	font-size: 35px;
+}
+
+/* main container */
+
+main {
+	margin-inline: auto;
+	max-width: 600px;
+	padding-inline: 10px;
+}
+
+/* table */
+
+table {
+	width: 100%;
+	background-color: var(--secondary-color);
+	margin-block: 30px;
+}
+
+/* cells */
+
+thead td {
+	font-weight: 600;
+	background-color: var(--primary-color);
+	color: white;
+	font-size: 18px;
+}
+
+td {
+	background-color: white;
+	padding: 5px 10px;
+}
+
+/* missing translations */
+
+tr.missing {
+	color: var(--gray);
+}

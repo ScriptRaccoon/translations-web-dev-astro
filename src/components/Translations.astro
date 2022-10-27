@@ -1,0 +1,27 @@
+---
+import { translations } from "../data/translations";
+const sortedTranslations = translations.sort((p, q) =>
+	p[0].toLowerCase() > q[0].toLowerCase() ? 1 : -1
+);
+---
+
+<section>
+	<table class="wrapper">
+		<thead>
+			<tr>
+				<td>English 🇬🇧</td>
+				<td>German 🇩🇪</td>
+			</tr>
+		</thead>
+		<tbody>
+			{
+				sortedTranslations.map(([word_en, word_de]) => (
+					<tr class:list={[{ missing: word_de == "?" }]}>
+						<td>{word_en}</td>
+						<td>{word_de}</td>
+					</tr>
+				))
+			}
+		</tbody>
+	</table>
+</section>
