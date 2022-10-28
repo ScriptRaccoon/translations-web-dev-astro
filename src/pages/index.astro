@@ -2,7 +2,7 @@
 import "../styles/style.css";
 import Header from "../components/Header.astro";
 import Intro from "../components/Intro.astro";
-import Translations from "../components/Translations.astro";
+import Translations from "../components/Translations.svelte";
 import Footer from "../components/Footer.astro";
 ---
 
@@ -21,7 +21,7 @@ import Footer from "../components/Footer.astro";
 		<Header />
 		<main>
 			<Intro />
-			<Translations />
+			<Translations client:load />
 		</main>
 		<Footer />
 	</body>
