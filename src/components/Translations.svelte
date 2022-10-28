@@ -2,12 +2,12 @@
 	import { onMount } from "svelte";
 	import { translations } from "../data/translations";
 
-	let sortedTranslations = translations.sort((p, q) =>
+	const sortedTranslations = translations.sort((p, q) =>
 		p[0].toLowerCase() > q[0].toLowerCase() ? 1 : -1
 	);
 
 	let search = "";
-	let searchInput: HTMLElement;
+	let searchInput: HTMLInputElement;
 
 	$: filteredTranslations = sortedTranslations.filter(
 		(translation) =>
@@ -17,12 +17,10 @@
 				.includes(search.trim().toLowerCase())
 	);
 
-	onMount(() => {
-		searchInput?.focus();
-	});
+	onMount(() => searchInput?.focus());
 </script>
 
-<form>
+<form on:submit|preventDefault>
 	<label for="searchInput">Search</label>
 	<input
 		bind:this={searchInput}
