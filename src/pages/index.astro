@@ -1,28 +1,9 @@
 ---
 import "../styles/style.css";
-import Header from "../components/Header.astro";
-import Intro from "../components/Intro.astro";
+import Layout from "../layouts/layout.astro";
 import Translations from "../components/Translations.svelte";
-import Footer from "../components/Footer.astro";
 ---
 
-<html lang="en">
-	<head
-		><meta charset="utf-8" /><meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge"
-		/><meta
-			name="viewport"
-			content="width=device-width, initial-scale=1"
-		/><title>Translations of web development terms</title>
-		<link rel="icon" type="image/x-icon" href="./favicon.ico" />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<Intro />
-			<Translations client:load />
-		</main>
-		<Footer />
-	</body>
-</html>
+<Layout>
+	<Translations client:load />
+</Layout>
