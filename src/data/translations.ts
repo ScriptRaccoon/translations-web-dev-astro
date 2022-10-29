@@ -188,6 +188,25 @@ export const translations: string[][] = [
 	["host", "?"],
 	["router", "Router"],
 	["literal", "Literal"],
+	["static", "statisch"],
+	["asset", "?"],
+	["hydration", "Hydrierung"],
+	["form", "Formular"],
+	["progressive enhancement", "Progressive Verbesserung"],
+	["application / app", "Anwendung"],
+	["browsergame", "Browserspiel"],
+	["buffer", "Puffer"],
+	["content management system / CMS", "Inhaltsverwaltungssystem"],
+	["user experience / UX", "Nutzererfahrung / Benutzererlebnis"],
+	["test-driven development", "Testgetriebene Entwicklung"],
+	["technical dept", "Technische Schulden"],
+	["continuous integration", "Fortlaufende Integration"],
+	["software engineer", "Software-Techniker"],
+	["software engineering", "Software-Technik"],
+	[
+		"integrated development environment / IDE",
+		"Integrierte Entwicklungsumgebung",
+	],
 ];
 
 export const numberOfTranslations = translations.filter(
