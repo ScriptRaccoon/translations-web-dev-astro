@@ -209,6 +209,7 @@ export const translations: string[][] = [
 	],
 ];
 
-export const numberOfTranslations = translations.filter(
-	(t) => t[1] != "?"
+export const numberOfTranslations = translations.length;
+export const numberOfMissingTranslations = translations.filter(
+	(t) => t[1] == "?"
 ).length;

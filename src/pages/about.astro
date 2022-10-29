@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/layout.astro";
 import { numberOfTranslations } from "../data/translations";
+import { numberOfMissingTranslations } from "../data/translations";
 ---
 
 <Layout>
@@ -8,7 +9,9 @@ import { numberOfTranslations } from "../data/translations";
 		<p>
 			Here you find translations from English to German of terms
 			which are commonly used in web development. Currently
-			there are {numberOfTranslations} of them.
+			there are {numberOfTranslations} of them (of which {
+				numberOfMissingTranslations
+			} are missing).
 		</p>
 		<p>
 			Many native German speakers, including myself, just use
