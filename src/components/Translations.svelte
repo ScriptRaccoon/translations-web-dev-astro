@@ -44,9 +44,12 @@
 					<td>{word_en}</td>
 					<td>{word_de}</td>
 				</tr>
-			{:else}
-				<tr>Sorry, no matches</tr>
 			{/each}
 		</tbody>
 	</table>
+	{#if filteredTranslations.length == 0}
+		<p>
+			Sorry, there are no matches for <i>{search}</i>.
+		</p>
+	{/if}
 </section>
