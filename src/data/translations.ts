@@ -171,7 +171,7 @@ export const translations: string[][] = [
 	["viewport", "Anzeigebereich"],
 	["dependency", "Abhängigkeit"],
 	["dev dependency", "?"],
-	["bundle", "?"],
+	["bundle", "Bündel"],
 	["scaffold", "Grundgerüst"],
 	["concatenate", "verbinden / verknüpfen"],
 	["backtick", "Gravis / Abwärtsakzent"],
@@ -183,4 +183,8 @@ export const translations: string[][] = [
 	["landscape (orientiation)", "Querformat"],
 	["portrait (orientation)", "Hochformat"],
 	["device", "Gerät"],
+	["port", "?"],
+	["host", "?"],
+	["router", "Router"],
+	["literal", "Literal"],
 ];
