@@ -1,8 +1,12 @@
 ---
+interface Props {
+	title: string;
+}
+const { title } = Astro.props;
 import Nav from "./Nav.astro";
 ---
 
 <header>
-	<h1>Translations of web development terms</h1>
+	<h1>{title}</h1>
 	<Nav />
 </header>
