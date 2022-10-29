@@ -1,12 +1,14 @@
 ---
 import Layout from "../layouts/layout.astro";
+import { numberOfTranslations } from "../data/translations";
 ---
 
 <Layout>
 	<section class="about">
 		<p>
 			Here you find translations from English to German of terms
-			which are commonly used in web development.
+			which are commonly used in web development. Currently
+			there are {numberOfTranslations} of them.
 		</p>
 		<p>
 			Many native German speakers, including myself, just use

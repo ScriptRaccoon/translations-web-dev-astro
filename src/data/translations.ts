@@ -1,4 +1,5 @@
 // format: [english word, german word]
+// when german word is missing, put "?"" there.
 export const translations: string[][] = [
 	["script", "Skript"],
 	["margin", "äußerer Abstand"],
@@ -188,3 +189,7 @@ export const translations: string[][] = [
 	["router", "Router"],
 	["literal", "Literal"],
 ];
+
+export const numberOfTranslations = translations.filter(
+	(t) => t[1] != "?"
+).length;
