@@ -171,7 +171,7 @@ export const translations: string[][] = [
 	["letter spacing", "Zeichenabstand"],
 	["viewport", "Anzeigebereich"],
 	["dependency", "Abhängigkeit"],
-	["dev dependency", "?"],
+	["dev dependency", "Entwicklungsabhängigkeit"],
 	["bundle", "Bündel"],
 	["scaffold", "Grundgerüst"],
 	["concatenate", "verbinden / verknüpfen"],
