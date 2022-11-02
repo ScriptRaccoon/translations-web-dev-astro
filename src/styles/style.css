@@ -66,7 +66,7 @@ ul {
 main {
 	margin-inline: auto;
 	width: min(95vw, 600px);
-	padding-block: 20px;
+	padding-bottom: 20px;
 	flex-grow: 1;
 }
 
@@ -104,6 +104,11 @@ form {
 	display: flex;
 	align-items: center;
 	gap: 10px;
+	position: sticky;
+	top: 0;
+	padding-top: 20px;
+	background-color: white;
+	box-shadow: 0px 15px 20px #fff;
 }
 
 input[type="search"] {
@@ -122,6 +127,10 @@ input[type="search"]:focus {
 }
 
 /* about */
+
+.about {
+	padding-top: 20px;
+}
 
 .about p {
 	margin-bottom: 10px;
