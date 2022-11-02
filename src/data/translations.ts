@@ -1,6 +1,6 @@
 // format: [english word, german word]
 // when german word is missing, put "?"" there.
-export const translations: string[][] = [
+export const translations: [string, string][] = [
 	["script", "Skript"],
 	["margin", "äußerer Abstand"],
 	["padding", "innerer Abstand"],
