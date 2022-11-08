@@ -207,6 +207,8 @@ export const translations: [string, string][] = [
 		"integrated development environment / IDE",
 		"Integrierte Entwicklungsumgebung",
 	],
+	["deployment", "Verteilung"],
+	["delivery", "Auslieferung"],
 ];
 
 export const numberOfTranslations = translations.length;
