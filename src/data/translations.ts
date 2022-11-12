@@ -242,7 +242,8 @@ export const translations: [string, string][] = [
 	["zip", "zusammenfügen"],
 	["archive", "Archiv"],
 	["compress", "komprimieren"],
-	["backup", "Sichern"],
+	["backup", "Sicherung"],
+	["contiguous", "zusammenhängend"],
 ];
 
 export const numberOfTranslations = translations.length;
