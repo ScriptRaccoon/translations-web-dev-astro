@@ -112,6 +112,7 @@ form {
 	padding-top: 20px;
 	background-color: white;
 	box-shadow: 0px 15px 20px #fff;
+	z-index: 10;
 }
 
 input[type="search"] {
