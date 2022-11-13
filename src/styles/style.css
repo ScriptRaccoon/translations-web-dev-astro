@@ -92,10 +92,13 @@ td {
 	padding: 5px 10px;
 }
 
-/* missing translations */
+td:last-child {
+	text-align: center;
+}
 
-tr.missing {
-	color: var(--gray);
+td img {
+	opacity: 0.8;
+	width: 14px;
 }
 
 /* search */

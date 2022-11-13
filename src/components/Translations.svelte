@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-	import { translations } from "../data/translations";
+	import { translations, type rating } from "../data/translations";
 
 	const sortedTranslations = translations.sort((p, q) =>
 		p[0].toLowerCase() > q[0].toLowerCase() ? 1 : -1
@@ -18,6 +18,19 @@
 	);
 
 	onMount(() => searchInput?.focus());
+
+	const imageSources: Record<rating, string> = {
+		0: "nothing.png",
+		1: "invention.png",
+		2: "tick.png",
+		3: "checked.png",
+	};
+	const imageNames: Record<rating, string> = {
+		0: "No translation",
+		1: "translation is guessed",
+		2: "translation is available, but not used often",
+		3: "translation is available and used often",
+	};
 </script>
 
 <form on:submit|preventDefault>
@@ -36,13 +49,21 @@
 			<tr>
 				<td>English</td>
 				<td>German</td>
+				<td><small>Rating</small></td>
 			</tr>
 		</thead>
 		<tbody>
-			{#each filteredTranslations as [word_en, word_de]}
-				<tr class:missing={word_de == "?"}>
+			{#each filteredTranslations as [word_en, word_de, rating]}
+				<tr>
 					<td>{word_en}</td>
 					<td>{word_de}</td>
+					<td
+						><img
+							src={imageSources[rating]}
+							alt={imageNames[rating]}
+							title={imageNames[rating]}
+						/></td
+					>
 				</tr>
 			{/each}
 		</tbody>

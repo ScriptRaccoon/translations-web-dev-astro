@@ -1,4 +1,4 @@
-type rating =
+export type rating =
 	| 0 // translation is missing
 	| 1 // translation is guessed
 	| 2 // translation is official, not used often
