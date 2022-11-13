@@ -99,6 +99,7 @@ td {
 
 td:last-child {
 	text-align: center;
+	width: 22px;
 }
 
 td img {
