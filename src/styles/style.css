@@ -73,7 +73,7 @@ main {
 /* table */
 
 table {
-	margin-block: 20px;
+	margin-block: 30px 20px;
 	width: 100%;
 	background-color: var(--secondary-color);
 }
