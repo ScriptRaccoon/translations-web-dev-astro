@@ -49,7 +49,13 @@
 			<tr>
 				<td>English</td>
 				<td>German</td>
-				<td>Rating</td>
+				<td
+					><img
+						src="star.png"
+						alt="rating"
+						title="rating"
+					/></td
+				>
 			</tr>
 		</thead>
 		<tbody>
