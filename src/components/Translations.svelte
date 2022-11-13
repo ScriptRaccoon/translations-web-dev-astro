@@ -49,7 +49,7 @@
 			<tr>
 				<td>English</td>
 				<td>German</td>
-				<td><small>Rating</small></td>
+				<td>Rating</td>
 			</tr>
 		</thead>
 		<tbody>

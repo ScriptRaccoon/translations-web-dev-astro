@@ -87,6 +87,11 @@ thead td {
 	font-size: 18px;
 }
 
+thead td:last-child {
+	font-size: 12px;
+	padding: 3px;
+}
+
 td {
 	background-color: white;
 	padding: 5px 10px;
