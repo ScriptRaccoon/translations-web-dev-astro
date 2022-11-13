@@ -26,7 +26,7 @@
 		3: "checked.png",
 	};
 	const imageNames: Record<rating, string> = {
-		0: "No translation",
+		0: "translation is not available",
 		1: "translation is guessed",
 		2: "translation is available, but not used often",
 		3: "translation is available and used often",
