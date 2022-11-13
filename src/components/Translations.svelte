@@ -19,13 +19,13 @@
 
 	onMount(() => searchInput?.focus());
 
-	const imageSources: Record<rating, string> = {
+	const iconSources: Record<rating, string> = {
 		0: "nothing.png",
 		1: "invention.png",
 		2: "tick.png",
 		3: "checked.png",
 	};
-	const imageNames: Record<rating, string> = {
+	const iconTitles: Record<rating, string> = {
 		0: "translation is not available",
 		1: "translation is guessed",
 		2: "translation is available, but not used often",
@@ -65,9 +65,9 @@
 					<td>{word_de}</td>
 					<td
 						><img
-							src={imageSources[rating]}
-							alt={imageNames[rating]}
-							title={imageNames[rating]}
+							src={iconSources[rating]}
+							alt={iconTitles[rating]}
+							title={iconTitles[rating]}
 						/></td
 					>
 				</tr>
