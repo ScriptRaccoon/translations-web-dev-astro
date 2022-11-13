@@ -53,7 +53,7 @@ h1 {
 
 /* navigation */
 
-ul {
+nav ul {
 	display: flex;
 	list-style: none;
 	justify-content: center;
@@ -137,4 +137,17 @@ input[type="search"]:focus {
 
 .about p {
 	margin-bottom: 10px;
+}
+
+.about img {
+	width: 14px;
+}
+
+.about ol {
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+.about li {
+	margin-block: 15px;
 }
