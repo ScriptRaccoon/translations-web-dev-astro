@@ -209,6 +209,19 @@ export const translations: [string, string][] = [
 	],
 	["deployment", "Verteilung"],
 	["delivery", "Auslieferung"],
+	["scoped", "geltungsbeschränkt"],
+	["framework", "Programmiergerüst"],
+	["header", "Kopf / Kopfbereich / Kopfzeile"],
+	["footer", "Fußzeile"],
+	["font-weight", "Schriftstärke"],
+	["font-size", "Schriftgröße"],
+	["infer", "inferieren"],
+	["hydrate", "hydrieren"],
+	["directive", "Direktive / Anweisung"],
+	["decorator", "Dekorator"],
+	["lifecycle", "Lebenszyklus"],
+	["submit", "abschicken"],
+	["submission", "Einreichung"],
 ];
 
 export const numberOfTranslations = translations.length;
