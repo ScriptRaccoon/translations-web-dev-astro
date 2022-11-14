@@ -234,6 +234,12 @@ export const translations: translation[] = [
 	["lifecycle", "Lebenszyklus", 2],
 	["submit", "abschicken", 2],
 	["submission", "Einreichung", 1],
+	["syntactic sugar", "syntaktischer Zucker", 3],
+	["commit", "Festschreibung", 2],
+	["commit message", "Festschreibungsnachricht", 2],
+	["branch", "Zweig", 3],
+	["repository", "Repositorium", 2],
+	["merge", "zusammenfügen", 2],
 ];
 
 export const numberOfTranslations = translations.length;
