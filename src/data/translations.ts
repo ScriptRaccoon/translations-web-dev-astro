@@ -240,6 +240,11 @@ export const translations: translation[] = [
 	["branch", "Zweig", 3],
 	["repository", "Repositorium", 2],
 	["merge", "zusammenfügen", 2],
+	["software", "", 0],
+	["hardware", "", 0],
+	["return", "zurückgeben", 3],
+	["return value", "Rückgabewert", 3],
+	["higher order function", "Funktion höherer Ordnung", 3],
 ];
 
 export const numberOfTranslations = translations.length;
