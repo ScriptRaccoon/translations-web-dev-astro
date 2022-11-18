@@ -245,6 +245,11 @@ export const translations: translation[] = [
 	["return", "zurückgeben", 2],
 	["return value", "Rückgabewert", 2],
 	["higher order function", "Funktion höherer Ordnung", 3],
+	["bug", "Programmfehler / Softwarefehler", 2],
+	["patch", "Nachbesserung", 1],
+	["download", "herunterladen", 2],
+	["track", "verfolgen", 2],
+	["referrer", "Verweiser", 1],
 ];
 
 export const numberOfTranslations = translations.length;
