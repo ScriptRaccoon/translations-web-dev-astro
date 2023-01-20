@@ -152,8 +152,14 @@ input[type="search"]:focus {
 
 .about ol {
 	list-style-type: none;
+	margin-block: 20px;
 }
 
 .about li {
-	margin-block: 15px;
+	padding-block: 15px;
+	border-bottom: 1px solid var(--secondary-color);
+}
+
+.about li:first-child {
+	border-top: 1px solid var(--secondary-color);
 }
