@@ -280,6 +280,7 @@ export const translations: translation[] = [
 	["to scroll", "", 0],
 	["infinity scroll", "Unendlicher Bildlauf", 1],
 	["scrollbar", "Bildlaufleiste", 2],
+	["accessibility", "Barrierefreiheit", 2],
 ];
 
 export const numberOfTranslations = translations.length;
