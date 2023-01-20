@@ -65,7 +65,8 @@ nav ul {
 
 main {
 	margin-inline: auto;
-	width: min(95vw, 600px);
+	max-width: 600px;
+	padding-inline: 10px;
 	padding-bottom: 20px;
 	flex-grow: 1;
 }
@@ -147,7 +148,8 @@ input[type="search"]:focus {
 }
 
 .about img {
-	width: 14px;
+	width: 16px;
+	margin-right: 5px;
 }
 
 .about ol {
@@ -157,9 +159,16 @@ input[type="search"]:focus {
 
 .about li {
 	padding-block: 15px;
+	padding-inline: 10px;
 	border-bottom: 1px solid var(--secondary-color);
 }
 
 .about li:first-child {
 	border-top: 1px solid var(--secondary-color);
+}
+
+@media (min-width: 640px) {
+	.about li {
+		padding-inline: 0px;
+	}
 }
