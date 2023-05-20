@@ -277,7 +277,7 @@ export const translations: translation[] = [
 	["Frontend", "Oberbau", 2],
 	["Backend", "Unterbau", 2],
 	["scrolling", "Bildlauf", 2],
-	["to scroll", "", 0],
+	["to scroll", "blättern", 2],
 	["infinity scroll", "Unendlicher Bildlauf", 1],
 	["scrollbar", "Bildlaufleiste", 2],
 	["accessibility", "Barrierefreiheit", 2],
