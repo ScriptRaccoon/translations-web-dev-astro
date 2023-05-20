@@ -199,7 +199,7 @@ export const translations: translation[] = [
 	["router", "Router", 3],
 	["literal", "Literal", 2],
 	["static", "statisch", 3],
-	["asset", "", 0],
+	["asset", "Projektelement", 1],
 	["hydration", "Hydrierung", 2],
 	["form", "Formular", 3],
 	["progressive enhancement", "Progressive Verbesserung", 2],
