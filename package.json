@@ -1,17 +1,20 @@
 {
-  "name": "translations-web-dev",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "translations-web-dev-astro",
+  "version": "1.0.0",
+  "description": "Translations of terms which are used in web development",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build": "astro build",
+    "preview": "astro preview"
   },
+  "keywords": [],
+  "author": "Script Raccoon",
+  "license": "ISC",
   "dependencies": {
-    "astro": "^4.6.0",
-    "@astrojs/check": "^0.5.10",
-    "typescript": "^5.4.5"
+    "@astrojs/svelte": "^1.0.2",
+    "astro": "^1.6.0",
+    "astro-compress": "^1.1.1",
+    "svelte": "^3.52.0"
   }
 }

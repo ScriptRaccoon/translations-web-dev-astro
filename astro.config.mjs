@@ -1,4 +1,10 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
+import compress from "astro-compress";
+import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  integrations: [compress({
+    html: true
+  }), svelte()]
+});
